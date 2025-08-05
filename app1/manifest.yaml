@@ -54,11 +54,11 @@ metadata:
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:632745187858:certificate/af2b2ad6-ad80-4dad-9597-158320272390
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/group.name: joindevops
+    alb.ingress.kubernetes.io/group.name: sree9516
 spec:
   ingressClassName: alb
   rules:
-  - host: "app1.daws84s.site"
+  - host: "app1.sree84s.site"
     http:
       paths:
       - pathType: Prefix
